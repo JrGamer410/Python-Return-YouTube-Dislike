@@ -11,7 +11,7 @@ from pythonryd import *
 ```
 All functions in this library take in a parameter called video_id. This is the part after the watch?v= of a YouTube URL. <br> For the YouTube URL https://www.youtube.com/watch?v=SvcttIw9qBM the video_id is SvcttIw9qBM
 # Commands
-The package contains the following commands:
+The package contains the following commands: <br>
 __ryd_getvideoinfo(video_id)__
 ```
 video = ryd_getvideoinfo("SvcttIw9qBM") # Using SvcttIw9qBM as an example
