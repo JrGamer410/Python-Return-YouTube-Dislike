@@ -1,2 +1,77 @@
 # Python Return YouTube Dislike
- A simple Python library to work with the Return YouTube Dislike API
+ A simple Python library to work with the Return YouTube Dislike API <br> PyPi page: https://pypi.org/project/python-return-youtube-dislike/
+# Usage
+To install the package, run the following command:
+```
+pip install python-return-youtube-dislike
+```
+Once installed, import it into your script with the following code:
+```
+from python-ryd import *
+```
+All functions in this library take in a parameter called video_id. This is the part after the watch?v= of a YouTube URL. <br> For the YouTube URL https://www.youtube.com/watch?v=SvcttIw9qBM the video_id is SvcttIw9qBM
+# Commands
+The package contains the following commands:
+__ryd_getvideoinfo(video_id)__
+```
+video = ryd_getvideoinfo("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(video)
+```
+Response:
+```
+{'id': 'SvcttIw9qBM', 'dateCreated': '2022-01-23T04:44:33.634409Z', 'likes': 645, 'dislikes': 167, 'rating': 4.177339901477833, 'viewCount': 300777, 'deleted': False}
+```
+__ryd_getvideolikes(video_id)__
+```
+likes = ryd_getvideolikes("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(likes)
+```
+Response:
+```
+645
+```
+__ryd_getvideodislikes(video_id)__
+```
+dislikes = ryd_getvideodislikes("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(dislikes)
+```
+Response:
+```
+167
+```
+__ryd_getvideorating(video_id)__
+```
+rating = ryd_getvideorating("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(rating)
+```
+Response:
+```
+4.177339901477833
+```
+__ryd_getvideoviews(video_id)__
+```
+views = ryd_getvideoviews("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(views)
+```
+Response:
+```
+300777
+```
+__ryd_isvideodeleted(video_id)__
+```
+deleted = ryd_isvideodeleted("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(deleted) # Returns True if deleted, False if not deleted (It's a string, not a bool)
+```
+Response:
+```
+False
+```
+__ryd_getvideodatecreated(video_id)__
+```
+dateCreated = ryd_getvideodatecreated("SvcttIw9qBM") # Using SvcttIw9qBM as an example
+print(dateCreated)
+```
+Response:
+```
+2022-01-23T04:44:33.634409Z
+```
