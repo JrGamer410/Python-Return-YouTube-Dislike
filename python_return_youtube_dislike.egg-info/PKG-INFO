@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-return-youtube-dislike
+Version: 1.1.4
+Summary: A simple Python library to interact with the Return YouTube Dislike API
+Author: Sean-e
+Author-email: Sean-e <seane410@gmail.com>
+Project-URL: Homepage, https://github.com/JrGamer410/Python-Return-YouTube-Dislike
+Project-URL: Issues, https://github.com/JrGamer410/Python-Return-YouTube-Dislike/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Return YouTube Dislike
+ A simple Python library to work with the Return YouTube Dislike API

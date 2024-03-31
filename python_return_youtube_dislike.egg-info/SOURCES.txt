@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+pythonryd.py
+setup.py
+python_return_youtube_dislike.egg-info/PKG-INFO
+python_return_youtube_dislike.egg-info/SOURCES.txt
+python_return_youtube_dislike.egg-info/dependency_links.txt
+python_return_youtube_dislike.egg-info/top_level.txt
