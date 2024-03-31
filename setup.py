@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.1.3' 
+VERSION = '1.1.4' 
 DESCRIPTION = 'A simple Python library to interact with the Return YouTube Dislike API'
 LONG_DESCRIPTION = 'A simple Python library to interact with the Return YouTube Dislike API'
 
