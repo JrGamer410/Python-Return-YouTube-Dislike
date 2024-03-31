@@ -7,7 +7,7 @@ pip install python-return-youtube-dislike
 ```
 Once installed, import it into your script with the following code:
 ```
-from python-ryd import *
+from pythonryd import *
 ```
 All functions in this library take in a parameter called video_id. This is the part after the watch?v= of a YouTube URL. <br> For the YouTube URL https://www.youtube.com/watch?v=SvcttIw9qBM the video_id is SvcttIw9qBM
 # Commands
